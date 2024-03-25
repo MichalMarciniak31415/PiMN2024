@@ -1,3 +1,5 @@
+// przykłady jeszcze nie omawiane na wykładzie
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
