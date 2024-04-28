@@ -15,10 +15,9 @@ std::vector<float> linspace(float start, float end, int point_num) {
    
     
     std::vector<float> x(point_num);
-    float scale = 1.0 / point_num;
+    float scale = (end - start) / point_num;
     for (int i = 0; i < point_num; i++) {
-        float temp = i * scale;
-        x[i] = (temp - 1) * start + temp * end;
+        x[i] = start + i * scale;
     }
     return x;
 }
