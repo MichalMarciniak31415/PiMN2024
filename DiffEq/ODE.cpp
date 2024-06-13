@@ -1,7 +1,7 @@
-#include "functions.h"
+#include "ODE.h"
 //#include <ppl.h>
 #include <cmath>
-#include <random>
+
 #include <iostream>
 #include <vector>
 
